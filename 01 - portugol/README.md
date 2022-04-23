@@ -1,6 +1,6 @@
 # Portugol
 
-## Introdução à Programação
+## 1. Introdução à Programação
 
 No [Portugol WebStudio](https://portugol-webstudio.cubos.io/ide) a priori temos a entrada e saídas de dados. A entrada de dados permite que o usuário pode digitar números, palavras, frases, entre outros. Já saída de dados permite ao algoritmo exibir dados na tela do computador.
 
@@ -16,7 +16,7 @@ O comando para saída de dados é:
 escreva("Escreva o texto a ser digitado")
 ```
 
-## Declarações de variáveis
+## 2. Declarações de variáveis
 
 Quando criamos uma variável, simplesmente separamos um espaço de memória. O sinal de igual "=" é o símbolo da atribuição no Portugol.
 
@@ -48,10 +48,10 @@ cadeia aluna = "Larissa"
  caracter opcao = "+"
 ```
 
-- logico: Declara a variável para exibir se determinada condição é verdadeira ou falsa. Exemplo:
+- logico: Declara a variável para exibir se determinada condição é verdadeira ou falsa. Essa operação é também chamada de operação booleana. Exemplo:
 
 ```
-logico 3<4
+logico valor = 3 < 4
 ```
 
 - const: Declara a variável a um valor de constante. Tal valor de variável **não** pode ser alterado até o final do código.
@@ -60,7 +60,31 @@ logico 3<4
 const real PI = 3.1415926535
 ```
 
-## Operações Matemáticas
+### _Exercícios Resolvidos_
+
+1. Faça um programa em Portugol WebStudio que realize a declaração dos tipos de dados entradas em inteiro, real, cadeia, caracter e booleano. Posteriormente, mostre os seus dados de saídas.
+
+```
+programa
+{
+	funcao inicio()
+	{
+        inteiro x = 10
+        real raio = 2.5
+        cadeia nome = "Marcelo"
+        caracter alternativa = 'a'
+        logico valor = 3>4
+
+        escreva(" x = ", x)
+        escreva("\n raio = ", raio)
+        escreva("\n nome = ", nome)
+        escreva("\n alternativa = ", alternativa)
+        escreva("\n 3>4? = ", valor)
+	}
+}
+```
+
+## 2.1 Operações Matemáticas
 
 Utilizam-se operadores aritméticos para realizar cálculos.
 
@@ -72,7 +96,7 @@ Utilizam-se operadores aritméticos para realizar cálculos.
 | Divisão          | /        |
 | Resto da divisão | %        |
 
-## Operações Relacionais
+## 2.2 Operações Relacionais
 
 Verifica-se se um número digitado pelo usuário é positivo ou negativo, ou outra operação de qualquer outra natureza.
 
@@ -93,3 +117,29 @@ Os operadores relacionais são importantes, pois permitem realizar comparações
 | 5 != 5          | Falso      |
 | 16 >= 17 -1     | Verdadeiro |
 | 5 + 4 <= 11 - 2 | Verdadeiro |
+
+### _Exercícios Resolvidos_
+
+1. Faça um programa em Portugol WebStudio que realize a verificação de dois números reais. O programa possui como saída a média dos números digitados pelo usuário. Além disso, verifique se a média é maior que 15. O programa tem de possuir a seguinte saída: "A media é: (resultado da média aqui). Ela é maior que 15?"
+
+```
+programa
+{
+	funcao inicio()
+	{
+        real numero1, numero2, media
+
+        escreva("Digite o valor do número 1: ")
+		leia(numero1)
+
+		escreva("Digite o valor do número 2: ")
+		leia(numero2)
+
+        media = (numero1 + numero2)/2
+
+        escreva("A média é: ", media, ". Ela é maior que 15? ", media > 15)
+	}
+}
+```
+
+## 3. Desvios condicionais
