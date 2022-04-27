@@ -35,9 +35,11 @@ Caso fique com dúvidas durante o desenvolvimento do código em relação aos pr
 ## Networking o que é? <a name = "networking"></a>
 
 O Networking é o ato de criar e trabalhar em sua rede de contatos, fazendo a troca de informações, interesses e tendo como base a ajuda mútua e colaboração. </br>
+
 ### Ah, mas pra quê o Networking é importante?
 
 O Networking estreita e constrói relacionamentos, assim obtendo suporte e auxilio para as suas demandas presentes ou futuras. Essa rede dispõe de informações que podem te ajudar a encontrar vagas, promoções de empregos, hackathon's entre outras coisas. </br>
+
 ### E como fazer esse Networking ai?
 
 Primeiro, devemos observar as relevâncias dessas ações, como elas podem fazer diferença entre você e os contatos que você possui e os contatos que você ira construir.
@@ -46,7 +48,7 @@ Segundo, identifique pessoas que compartilham o mesmo interesse e pessoas intere
 
 Terceiro, usar uma das ferramentas para iniciar essas conexões, a mais conhecida é o Linkedin (falaremos mais dele abaixo).
 
-### Os benefícios do Networking em sua carreira:
+### Os benefícios do Networking em sua carreira
 
 - Oportunidades de crescimento profissional;
 - Maior acesso a vagas de trabalho;
