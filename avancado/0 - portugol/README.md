@@ -120,7 +120,7 @@ Os operadores relacionais são importantes, pois permitem realizar comparações
 
 ### _Exercícios Resolvidos_
 
-1. Faça um programa em Portugol WebStudio que realize a verificação de dois números reais. O programa possui como saída a média dos números digitados pelo usuário. Além disso, verifique se a média é maior que 15. O programa tem de possuir a seguinte saída: "A media é: (resultado da média aqui). Ela é maior que 15?"
+2. Faça um programa em Portugol WebStudio que realize a verificação de dois números reais. O programa possui como saída a média dos números digitados pelo usuário. Além disso, verifique se a média é maior que 15. O programa tem de possuir a seguinte saída: "A media é: (resultado da média aqui). Ela é maior que 15?"
 
 ```
 programa
@@ -143,3 +143,31 @@ programa
 ```
 
 ## 3. Desvios condicionais
+
+Trata-se de onde um conjunto de instruções deve ser executado **se** uma condição seja verdadeira. Caso a situação não seja verdadeira, ou seja, **senao**, ele executará uma outra operação. Por exemplo:
+
+### _Exercícios Resolvidos_
+
+3. Faça um programa em Portugol WebStudio que realize a verificação se o usuário é maior de idade. Caso ele seja, a saída deve apresentar a seguinte mensagem: "Maior de idade!" e o valor idade do usuário. Caso contrário, apresentar na saída a mensagem: "Menor de idade!" e o valor referente a idade.
+
+```
+programa
+{
+        funcao inicio()
+        {
+            inteiro maioridade
+
+            escreva ("Digite uma idade: ")
+            leia (maioridade)
+
+            se (maioridade >= 18)
+            {
+                escreva ("Maior de idade! ", maioridade)
+            }
+            senao
+            {
+                escreva ("Menor de idade! ", maioridade)
+            }
+        }
+}
+```
