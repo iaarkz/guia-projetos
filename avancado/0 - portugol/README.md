@@ -171,3 +171,87 @@ programa
         }
 }
 ```
+
+## 3.1 Desvios condicionais com operadores lógicos
+
+É necessário que o valor à esquerda e a direita do operador sejam valores lógicos (verdadeiro ou falso).
+
+Operador **e**: As duas entradas tem de serem verdadeiras para a saída ser verdadeira.
+
+| Entradas | Saidas |
+| -------- | ------ |
+| V e V    | V      |
+| V e F    | F      |
+| F e V    | F      |
+| F e F    | F      |
+
+Operador **or**: Basta que uma das entradas seja verdadeiras para a saída ser verdadeira.
+
+| Entradas | Saidas |
+| -------- | ------ |
+| V or V   | V      |
+| V or F   | V      |
+| F or V   | V      |
+| F or F   | F      |
+
+Operador **nao**: Ele inverte a entrada. Isto é, se a entrada for verdadeira a saída é falsa. E vice-versa.
+
+| Entradas | Saidas |
+| -------- | ------ |
+| nao(V)   | F      |
+| nao(F)   | V      |
+
+### _Exercícios Resolvidos_
+
+4. Faça um programa em Portugol WebStudio que verifica se João e Maria possuem a mesma idade.
+
+```
+programa
+{
+        funcao inicio()
+        {
+            inteiro joao = 17, maria = 17
+
+            se (joao == 17 e maria == 17)
+            {
+                escreva ("João e Maria possuem a mesma idade!")
+            }
+            senao
+            {
+                escreva ("Eles não possuem a mesma idade!")
+            }
+        }
+}
+
+
+```
+
+### _Exercícios Resolvidos_
+
+Faça um programa em Portugol WebStudio que verifica se "Lúcia é filha de Maria?", "João é pai de Maria?" e por fim, se "Mateus é primo de Lúcia?". Sabendo que, a mãe e o pai de Lúcia são Maria e João. Sendo Lucas e Pedro os primos de Lúcia e pai dos meninos se chama Mateus.
+
+```
+programa
+{
+        funcao inicio()
+        {
+
+            cadeia mae = "Maria", pai = "Joao", filha = "Lucia",
+            paiDosprimos = "Mateus", primosDaFilha = "Lucas-Pedro"
+
+            logico saidaMaeFilha, saidaPaieFilha, primosDaLucia
+
+            saidaMaeFilha = (mae == "Maria" e filha == "Lucia")
+            escreva("Lúcia é filha de Maria? ", saidaMaeFilha)
+            escreva("\n") // Comando de pular linha
+
+            saidaPaieFilha = ((nao(pai == "Joao")) ou (nao(filha == "Lucia")))
+            escreva("João é pai de Maria? ", saidaMaeFilha)
+            escreva("\n") // Comando de pular linha
+
+            primosDaLucia = (primosDaFilha == "Mateus")
+            escreva ("Mateus é primo de Lucia? ", primosDaLucia)
+
+        }
+}
+```
