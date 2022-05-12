@@ -1,6 +1,8 @@
 # Guia de Projetos Intermediários
 
-Aqui estarão todos os projetos propostos com uma breve explicação, clicando no projeto você será redirecionado para o guia de direções do mesmo. 😊
+Aqui estarão todos os projetos propostos com uma breve explicação, boas práticas e boa sorte. Para navegar entre os projetos, só basta abrir a pasta HTML, CSS ou JavaScript e dentro delas estarão as pastas com os projetos e respectivos arquivos. 😊
+
+---
 
 ## Projetos de HTML
 
@@ -10,7 +12,7 @@ Aprender a usar as tags Headings (H#) e Paragraph (p) em seus projetos, e entend
 
 ### Lista de Itens Ordenada e Não-Ordenada
 
-Usar de listas ordenadas e não-ordenadas para criar uma lista de prioridades e uma lista de compras.
+Usar de listas ordenadas e não-ordenadas para criar listas com diferentes itens e organizações.
 
 ### Adicionar Imagens e Vídeos
 
@@ -24,6 +26,32 @@ Aqui você vai praticar adicionar links e vídeos em sua página, e entender com
 
 Você vai criar um formulário de cadastro para um evento.
 
+---
+
 ## Projetos de CSS
 
+### Tela de Login do Orkut
+
+Vamos relembrar dos velhos tempos? A meta é criarmos uma página de login simples do Orkut, utilizando o que aprendemos com HTML e CSS até agora.
+
+### Um Cardápio Online
+
+Que tal criar um cardápio online relembrando aqueles que vemos nos restaurantes do nosso bairro? O objetivo desse projeto é continuar aprimorando as técnicas de HTML e CSS e aprender novas formas de utilizar tipos diferentes de imagens.
+
+### Calculadora de Índice de Massa Corpórea (IMC)
+
+Criar e estilizar uma calculadora de IMC com base em um projeto do Figma, e aprender a utilizar ícones de sites externos.
+
+### Lista de Tarefas
+
+Criar e estilizar uma lista de tarefas com checkmarks estilizadas, com base em um projeto do Figma.
+
+### Uma Tabela de Preços
+
+Criar e estilizar uma tabela de preços, simples e responsiva, com base em um projeto do Figma.
+
+---
+
 ## Projetos de JavaScript
+
+<img src="./css/examples/em-construcao.png">

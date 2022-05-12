@@ -1,4 +1,4 @@
-# Guia de Projetos da TERA
+# Guia de Projetos
 
 ## Conteúdo
 
@@ -29,6 +29,7 @@ Os níveis serão divididos em três: iniciante, intermediário e avançado. Ond
 - Iniciante: o nível iniciante é composto das práticas que já estão presentes na LXS e outras práticas que estarão em sua respectiva pasta, isto é, promover o aprendizado e hábito com a nova linguagem;
 - Intermediário: aqui já teremos construção de páginas não tão avançadas, com desafios para você entender o uso de tags de HTML, propriedades de estilização de CSS e práticas com o JavaScript;
 - Avançado: esses projetos já são mais exigentes, requerem que você busque em documentações como usar o HTML, CSS e JavaScript, buscar soluções também em fóruns de desenvolvedores, para assim, chegar resultado que foi requerido no projeto.
+- Master Coder: desafios com projetos reais open source de empresas do mercado, neles vocês precisarão ter conhecimento de técnicas de front-end e técnicas de back-end.
 
 Caso fique com dúvidas durante o desenvolvimento do código em relação aos projetos propostos, as duvidas podem ser consultadas com os facilitadores de sua turma.
 
@@ -79,10 +80,10 @@ O Github também possui uma função de Branches (galhos), no qual você pode te
 
 Com o Github você pode, ao terminar o seu projeto, deixar ele online para todos poderem acessarem, tanto o código como a página que você criou. Essa função se chama Github Pages.
 
-## Github Pages ou Netlify? <a name = "netlify"></a>
+## Github Pages ou Heroku ou Netlify? <a name = "netlify"></a>
 
 E o que é esse tal de Netlify, o Github Pages já não é o suficiente para deixar minha página online? A resposta é sim e não, vai depender de qual projeto você está pretendendo construir. Lembrando que o Netlify vai usar de seu projeto no repositório do Github para dar o deploy (colocar no ar).
 
 GitHub Pages está totalmente integrado ao repositório GitHub e é sempre gratuito para uso. É uma excelente escolha para sites simples e estáticos. No entanto, para uma implantação mais sofisticada, ele pode não atender a todos os requisitos de um projeto.
 
-O Netlify é uma solução mais sofisticada e possui uma gama mais ampla de recursos para hospedar sites profissionais com kits de ferramentas modernos. A lista inclui reversões com um clique, integração contínua, visualização de implantação, mais controle sobre implantações, etc.
+O Netlify e Heroku são uma solução mais sofisticada e possui uma gama mais ampla de recursos para hospedar sites profissionais com kits de ferramentas modernos. A lista inclui reversões com um clique, integração contínua, visualização de implantação, mais controle sobre implantações, etc.
