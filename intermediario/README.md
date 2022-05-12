@@ -1,1 +1,0 @@
-Projetos aqui com breve explicação
