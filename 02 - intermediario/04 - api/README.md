@@ -10,7 +10,7 @@
 6. Para que a função da linha 3 seja satisfeita é necessário chamar a função renderregion. Para assim verificar a animação pequena animação.
 7. Fica a dica no código: Verificar a função renderregion e digitar corretamente os parâmetros de cada campo. Ver exemplo 1. ☠☠☠
 
-<img src="./exemplo.PNG" style="width: 50%; margin-left: 50;>
+![alt text](./exemplo.PNG)
 
 8. Ajustar o css para que ele apresente uma aparência melhor. Caso houver algum campo que não está sendo usado do css, o retire. O ajuste do css fica a critério de você, dev.
 9. Utilizar o catch para verificar se o usuário digitou a sigla do estado corretamente.
